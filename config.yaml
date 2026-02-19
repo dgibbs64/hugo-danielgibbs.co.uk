@@ -158,71 +158,50 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Site Reliability Engineer"
-        company: "SiXworks"
+      - company: "SiXworks"
         companyUrl: "https://www.sixworks.net/"
-        date: "July 2025 - Present"
-        featuredLink:
-          enable: false
-          url: "https://example.com"
-        info:
-          enable: false
-        content: "This role is allowing me to make use of my Terraform and Ansible Skills as well as my defence background."
-    
-      - job: "Senior Platform Engineer"
-        company: "ReAssure"
+        jobs:
+          - name: "Site Reliability Engineer"
+            date: "July 2025 - Present"
+            content: "This role is allowing me to make use of my Terraform and Ansible Skills as well as my defence background."
+
+      - company: "ReAssure"
         companyUrl: "https://www.reassure.co.uk"
-        date: "Jan 2023 - June 2025"
-        featuredLink:
-          enable: false
-          url: "https://example.com"
-        info:
-          enable: false
-        content: "This Platform Engineering role involved working on projects related to Red Hat Enterprise Linux, Ansible and AWS. I was responsible installing and maintaining RedHat Satellite and refactoring existing Ansible pipelines."
+        jobs:
+          - name: "Senior Platform Engineer"
+            date: "Jan 2023 - June 2025"
+            content: "This Platform Engineering role involved working on projects related to Red Hat Enterprise Linux, Ansible and AWS. I was responsible installing and maintaining RedHat Satellite and refactoring existing Ansible pipelines."
 
-      - job: "DevOps Engineer"
-        company: "OGL Software"
+      - company: "OGL Software"
         companyUrl: "https://ogl.co.uk"
-        date: "Aug 2021 - Dec 2022"
-        featuredLink:
-          enable: false
-          url: "https://example.com"
-        info:
-          enable: false
-        content: |
-          My primary goal was to help the web and Linux teams work more efficiently and effectively by using automation and industry-standard practices, and by collaborating with other departments and developers to utilize our diverse skills and expertise to drive improvements and achieve our objectives.
-          - Using automation tools like Ansible and terraform to streamline the deployment process for web servers such as Apache and Nginx.
-          - Maintaining and integrating a Zabbix monitoring solution.
-          - Improving and educating on DevOps processes and advocating for new tooling.
-          - Maintaining a custom server deployment and inventory tool.
-          - Managing Cloudflare tenants and git repositories on BitBucket.
+        jobs:
+          - name: "DevOps Engineer"
+            date: "Aug 2021 - Dec 2022"
+            content: |
+              My primary goal was to help the web and Linux teams work more efficiently and effectively by using automation and industry-standard practices, and by collaborating with other departments and developers to utilize our diverse skills and expertise to drive improvements and achieve our objectives.
+              - Using automation tools like Ansible and terraform to streamline the deployment process for web servers such as Apache and Nginx.
+              - Maintaining and integrating a Zabbix monitoring solution.
+              - Improving and educating on DevOps processes and advocating for new tooling.
+              - Maintaining a custom server deployment and inventory tool.
+              - Managing Cloudflare tenants and git repositories on BitBucket.
 
-      - job: "Combat Systems Engineer"
-        company: "BAE Systems"
+      - company: "BAE Systems"
         companyUrl: "https://www.baesystems.com/en-uk/home"
-        date: "Jan 2020 - Aug 2020"
-        info:
-          enable: false
-        featuredLink:
-          enable: false
-          url: "https://www.baesystems.com/en-uk/home"
-        content: |
-          Over the course of three years, I held multiple IT-based roles within BAE Systems. My career with the company began with me installing network equipment onboard HMS Prince of Wales before becoming a Combat Systems engineer. In this role, I conducted trials and wrote "Body of Evidence" reports to ensure the product was safe and functional for installation. I also worked on another project, supporting the integration and trials. This included installing cabling infrastructure and clients, maintaining and administering the representative test environment, creating a solution to gather performance metrics, and supporting trial engineers to allow hosted trials to be conducted.
+        jobs:
+          - name: "Combat Systems Engineer"
+            date: "Jan 2020 - Aug 2020"
+            content: |
+              Over the course of three years, I held multiple IT-based roles within BAE Systems. My career with the company began with me installing network equipment onboard HMS Prince of Wales before becoming a Combat Systems engineer. In this role, I conducted trials and wrote "Body of Evidence" reports to ensure the product was safe and functional for installation. I also worked on another project, supporting the integration and trials. This included installing cabling infrastructure and clients, maintaining and administering the representative test environment, creating a solution to gather performance metrics, and supporting trial engineers to allow hosted trials to be conducted.
 
-      - job: "Weapon Engineer"
-        company: "Royal Navy"
+      - company: "Royal Navy"
         companyUrl: "https://www.royalnavy.mod.uk/"
-        date: "Feb 2014 - Jul 2018"
-        featuredLink:
-          enable: true
-          name: "Herbert Lott Award"
-          url: "https://www.royalnavy.mod.uk/news-and-latest-activity/news/2017/october/25/171025-weapons-engineer-wins-top-innovation-award"
-        info:
-          enable: false
-        content: |
-          I have 4 years of experience as a Weapon Engineer in the Royal Navy.
-          Serving on three of the Royal Navys latest warships, working on various communication systems such as ship-based computer networks, self-powered telephones, and broadcast & alarm systems.
-          I had a strong background in the networks section, where I designed a user-friendly graphical interface for the QEC network management system that made an advanced system easy to understand for non-technical personnel. My efforts were recognized with two awards, the Herbert Lott and CO's Efficiency Award.
+        jobs:
+          - name: "Weapon Engineer"
+            date: "Feb 2014 - Jul 2018"
+            content: |
+              I have 4 years of experience as a Weapon Engineer in the Royal Navy.
+              Serving on three of the Royal Navys latest warships, working on various communication systems such as ship-based computer networks, self-powered telephones, and broadcast & alarm systems.
+              I had a strong background in the networks section, where I designed a user-friendly graphical interface for the QEC network management system that made an advanced system easy to understand for non-technical personnel. My efforts were recognized with two awards, the Herbert Lott and CO's Efficiency Award.
   # Education
   education:
     enable: false
